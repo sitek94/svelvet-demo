@@ -8,7 +8,7 @@
   const initialNodes: Node[] = [
     {
       id: 1,
-      position: { x: 50, y: 50 },
+      position: { x: -300, y: -300 },
       data: { label: 'Input Node' },
       width: 175,
       height: 40,
@@ -16,7 +16,7 @@
     },
     {
       id: 2,
-      position: { x: 100, y: 150 },
+      position: { x: -100, y: -100 },
       data: { label: 'Default Node' },
       width: 175,
       height: 40,
@@ -24,7 +24,7 @@
     },
     {
       id: 3,
-      position: { x: 150, y: 250 },
+      position: { x: 150, y: 150 },
       data: { label: 'Output Node' },
       width: 175,
       height: 40,

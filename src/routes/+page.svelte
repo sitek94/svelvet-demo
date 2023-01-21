@@ -7,10 +7,6 @@
 
 <svelte:window bind:innerHeight bind:innerWidth />
 
-<p>
-  {innerWidth} x {innerHeight}
-</p>
-
 {#if innerWidth > 0 && innerHeight > 0}
   <Graph width={innerWidth} height={innerHeight} />
 {/if}
