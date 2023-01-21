@@ -2,4 +2,8 @@
     import '../app.css'
 </script>
 
-<slot />
+<div class="h-screen overflow-hidden">
+    <slot />
+</div>
+
+
