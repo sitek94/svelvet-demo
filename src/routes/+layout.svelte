@@ -1,9 +1,7 @@
 <script>
-    import '../app.css'
+  import '../app.css'
 </script>
 
 <div class="h-screen overflow-hidden">
-    <slot />
+  <slot />
 </div>
-
-
